@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/fun"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300px"
+        android:orientation="vertical"
+        android:padding="40px">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="233dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="120px"
+            android:layout_marginTop="30px"
+            android:layout_marginBottom="50px"
+            android:foreground="#27008577"
+            android:paddingLeft="50px"
+            android:text="FORMULAIRE D'INSCRIPTION" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nom"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40px"
+            android:ems="10"
+            android:hint="Prénoms"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/Btn"
+            android:layout_width="179dp"
+            android:layout_height="42dp"
+            android:layout_alignStart="@+id/fun"
+            android:layout_marginLeft="140px"
+            android:background="#5200BCD4"
+            android:padding="5px"
+            android:text="ENVOYER"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+</RelativeLayout>
